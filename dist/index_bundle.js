@@ -56,7 +56,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"UTILS\": () => (/* binding */ utils),\n/* harmony export */   \"BSC_TOKENS\": () => (/* binding */ bsc),\n/* harmony export */   \"MATIC_TOKENS\": () => (/* binding */ matic)\n/* harmony export */ });\nvar matic = __webpack_require__(/*! ./addresses/matic */ \"./src/addresses/matic.js\");\n\nvar bsc = __webpack_require__(/*! ./addresses/bsc */ \"./src/addresses/bsc.js\");\n\nvar utils = __webpack_require__(/*! ./addresses/utils */ \"./src/addresses/utils.js\");\n\n\n\n//# sourceURL=webpack://$/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nvar MATIC_TOKENS = __webpack_require__(/*! ./addresses/matic */ \"./src/addresses/matic.js\");\n\nvar BSC_TOKENS = __webpack_require__(/*! ./addresses/bsc */ \"./src/addresses/bsc.js\");\n\nvar UTILS = __webpack_require__(/*! ./addresses/utils */ \"./src/addresses/utils.js\");\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n  UTILS: UTILS,\n  BSC_TOKENS: BSC_TOKENS,\n  MATIC_TOKENS: MATIC_TOKENS\n});\n\n//# sourceURL=webpack://$/./src/index.js?");
 
 /***/ })
 

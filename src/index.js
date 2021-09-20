@@ -1,6 +1,8 @@
-const matic = require("./addresses/matic")
-const bsc = require("./addresses/bsc")
-const utils = require("./addresses/utils")
+const MATIC_TOKENS = require("./addresses/matic")
+const BSC_TOKENS = require("./addresses/bsc")
+const UTILS = require("./addresses/utils")
 
 
-export {utils as UTILS,bsc as BSC_TOKENS,matic as MATIC_TOKENS}
+export default { UTILS, BSC_TOKENS,MATIC_TOKENS}
+
+
