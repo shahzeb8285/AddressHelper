@@ -1,8 +1,8 @@
-const MATIC_TOKENS = require("./src/addresses/matic")
-const BSC_TOKENS = require("./src/addresses/bsc")
-const UTILS = require("./src/addresses/utils")
+const MATIC_TOKENS = require("./src/addresses/MATIC")
+const BSC_TOKENS = require("./src/addresses/BSC")
+const AMM = require("./src/addresses/AMM")
+const PairHelper = require("./src/pairs")
 
 
 
-
-module.exports = {UTILS, BSC_TOKENS,MATIC_TOKENS}
+module.exports = {AMM, BSC_TOKENS,MATIC_TOKENS,PairHelper}

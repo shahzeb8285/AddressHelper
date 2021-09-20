@@ -1,10 +1,11 @@
 {
   "name": "@shahzeb8285/address-book",
-  "version": "1.0.0",
+  "version": "0.1.4",
   "description": "",
   "author": "",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "publish": "npm publish --access public"
   },
   "license": "ISC",
   "devDependencies": {
@@ -18,5 +19,8 @@
   },
   "engines": {
     "node": ">=4.2.4"
+  },
+  "dependencies": {
+    "web3": "^1.5.2"
   }
 }
