@@ -156,4 +156,4 @@ const BSC_ADDRESS ={
     
 }
 
-export default BSC_ADDRESS;
+module.exports =  BSC_ADDRESS;

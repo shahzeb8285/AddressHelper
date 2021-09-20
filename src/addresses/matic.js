@@ -197,4 +197,4 @@ tEXO: {address: '0xf1afb5674bf946458bd1163163f62de683b07d65', name: 'tEXO (POLY)
 }
 
 
-export default MATIC_ADDRESS;
+module.exports = MATIC_ADDRESS;

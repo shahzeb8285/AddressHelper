@@ -16,4 +16,4 @@ const UTILS={
 
 }
 
-export default UTILS
+module.exports = UTILS
