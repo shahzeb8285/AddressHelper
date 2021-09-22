@@ -33,7 +33,7 @@ class PairHelper {
 
     let pairAddr = await this.factory.methods.getPair(token1, token2).call();
     if (pairAddr === "0x0000000000000000000000000000000000000000") {
-      // return await createPair(token1, token2);
+      return await this.createPair(token1, token2);
     }
     return pairAddr;
   }
